@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean Manyamba | Professional Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">Jean Manyamba.</a>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Jean Manyamba</h1>
+                <span class="role-badge">Professional Web Developer</span>
+                <p class="hero-text">
+                    Building modern, responsive, and user-friendly web applications. This portfolio provides a curated overview of my professional experience and technical expertise.
+                </p>
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-blob">
+                     <img src="image_1.jpeg" alt="Jean Manyamba Profile Picture">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-bg">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a dedicated Professional Web Developer with a passion for turning complex problems into elegant digital solutions. I focus on writing clean, efficient code and creating intuitive user experiences. I am always eager to learn new technologies and take on challenging projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">My technical toolbelt for bringing ideas to life.</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon html-icon">&lt;/&gt;</div>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon css-icon">#</div>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon js-icon">JS</div>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon py-icon">Py</div>
+                    <h3>Python</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-bg">
+        <div class="container">
+            <h2 class="section-title">Recent Projects</h2>
+            <div class="projects-placeholder">
+                <p>Exciting projects are currently in development.</p>
+                <p>Check back soon to see my latest work!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 class="section-title">Let's Connect</h2>
+                <p>I'm open to freelance opportunities, collaborations, or just a chat about web development.</p>
+                
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+265981414980">+265 981 414 980</a></p>
+                    <p><a href="tel:+265985536580">+265 985 536 580</a></p>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form id="portfolio-contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Jean Manyamba">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="How can I help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+                <p id="form-feedback"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Jean Manyamba. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
