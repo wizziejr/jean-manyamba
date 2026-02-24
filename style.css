@@ -29,6 +29,7 @@ body {
     color: #ffffff;
     background-color: #000000;
     overflow-x: hidden;
+    line-height: 1.7;
 }
 
 h1, h2, h4 {
