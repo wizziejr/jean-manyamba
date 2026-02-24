@@ -22,7 +22,10 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
     line-height: 1.7;
+=======
+>>>>>>> 7086cf3e840e9c84d347f88de5679c985497a755
     color: #ffffff;
     background-color: #000000;
     overflow-x: hidden;
